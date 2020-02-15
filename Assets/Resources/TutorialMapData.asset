@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48b8268eef2d3646a851c2cd8aef229, type: 3}
+  m_Name: TutorialMapData
+  m_EditorClassIdentifier: 
+  stageList:
+  - mapList:
+    - MonsterRate: 0
+      ItemBoxRate: 0
+      IgnoreRate: 0
+      fixedItemBox_Id: 
+    - MonsterRate: 0
+      ItemBoxRate: 100
+      IgnoreRate: 0
+      fixedItemBox_Id: f0003
+    - MonsterRate: 100
+      ItemBoxRate: 0
+      IgnoreRate: 0
+      fixedItemBox_Id: 
+    - MonsterRate: 0
+      ItemBoxRate: 0
+      IgnoreRate: 100
+      fixedItemBox_Id: 

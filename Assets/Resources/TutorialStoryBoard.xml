@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TutorialStoryBoard>
+	<Field MapIndex="0" TellingOrder="before" Teller="H" Narration="가져올 만한 게 있어야 하는데.."/>
+	<Field MapIndex="0" TellingOrder="before" Teller="J" Narration="근데 간다고 꼭 있으리란 보장도 없잖아?"/>
+	<Field MapIndex="0" TellingOrder="before" Teller="철물점 아저씨" Narration="그래, 아무리 생각해도 2구역은 너무 위험해."/>
+	<Field MapIndex="0" TellingOrder="before" Teller="H" Narration="여길 봐요. 여긴 이제 아무것도 남은 게 없어요. 빈손으로 돌아가도 어차피 죽어요."/>
+	<Field MapIndex="0" TellingOrder="before" Teller="J" Narration="죽긴 누가 죽는다고 그래?"/>
+	<Field MapIndex="0" TellingOrder="before" Teller="철물점 아저씨" Narration="왜, 죽을 수도 있지."/>
+	<Field MapIndex="0" TellingOrder="before" Teller="J" Narration="아~ 아저씨, 재수 없게."/>
+	<Field MapIndex="0" TellingOrder="pop2" Narration="이동은 A,D로 할 수 있습니다. 플레이어는 스테이지를 진행하며 적과 조우하거나 스토리와 연관되어 있는 오브젝트 아이템을 발견할 수 있습니다."/>
+	<Field MapIndex="1" TellingOrder="object_pop1" Narration="스테이지를 진행하다 보면, 오브젝트 아이템을 발견 할 수 있습니다. 아이템은 캐릭터가 착용할 수 있는 장비아이템일 수도 있고, 스토리에 연관된 아이템일 수도 있습니다. 스토리 아이템은 특정 조건을 충족시켜야만 획득 할 수 있습니다. 간혹 스토리 아이템은 예기치 않은 전투를 발생시킬 때도 있습니다."/>
+	<Field MapIndex="1" TellingOrder="object" Teller="H" Narration="(항생제다. 이런 게 아직 남아있다니, 운이 좋다.)"/>
+	<Field MapIndex="2" TellingOrder="pre-emptive_pop1" Narration="스테이지를 진행하다보면, 적과 조우할 수 있습니다. 플레이어는 전투를 진행할지, 피해갈지 선택할 수 있습니다. 오브젝트 아이템과 마찬가지로 몬스터를 왼쪽 클릭하면 전투가 진행됩니다. 몬스터가 플레이어를 등지고 있을 경우, 플레이어는 몬스터 옆으로 지나갈 수 있습니다. 몬스터가 플레이어를 정면으로 두고 있을 경우, 플레이어는 전투를 피할 수 없습니다. 간혹 플레이어를 등진 몬스터가 고개를 돌려 플레이어를 발견 할 경우에도 전투가 발생할 수 있습니다. 또한, 오브젝트 아이템을 획득할 경우, 예기치 못한 전투가 발생되기도 합니다."/>
+	<Field MapIndex="2" TellingOrder="pre-emptive_pop1" Narration="전투는 턴제로 진행됩니다. 플레이어는 각각의 고유한 특성을 가지고 있는 캐릭터들을 이용해서 몬스터와의 전투를 진행해야 합니다. 전투에 효과적인 특성을 가지고 있는 캐릭터도 있고, 몬스터들의 움직임을 봉쇄할 수 있는 특성을 가지고 있는 캐릭터도 있습니다. 모든 캐릭터가 전투에 특화되어 있는 것은 아닙니다. 전투는 플레이어가 몬스터를 무찌르거나, 혹은 플레이어의 체력이 다 떨어질 경우 종료됩니다. 전투를 실패할 경우, 지금까지 진행한 스테이지는 저장되지 않습니다."/>
+	<Field MapIndex="2" TellingOrder="before" Teller="H" Narration="그냥 조용히 지나갈까요?"/>
+	<Field MapIndex="2" TellingOrder="before" Teller="철물점 아저씨" Narration="그러자구."/>
+	<Field MapIndex="2" TellingOrder="after" Teller="H" Narration="다들 다친 데는 없죠?"/>
+	<Field MapIndex="2" TellingOrder="after" Teller="J" Narration="어, 괜찮아."/>
+	<Field MapIndex="2" TellingOrder="after" Teller="철물점 아저씨" Narration="괜찮네, 근데 이게 뭐지?"/>
+	<Field MapIndex="2" TellingOrder="item" Narration="글씨가 적혀있는 쪽지." CutImageName="컷씬_쪽지"/>
+	<Field MapIndex="3" TellingOrder="event" Narration="검은양_3명_배치"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="J" Narration="하핫, 2구역도 별거 없는데?"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="H" Narration="쉿! 목소리 낮춰."/>
+	<Field MapIndex="3" TellingOrder="before" Teller="J" Narration="왜?"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="H" Narration="앞에 누가 있어.."/>
+	<Field MapIndex="3" TellingOrder="before" Narration="     "/>
+	<Field MapIndex="3" TellingOrder="before" Teller="정체불명1" Narration="여기에 깔려 있는 시체들은." Unit_ID="검은양"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="정체불명2" Narration="우리의 피와 눈물이며, 또한 위대한 희생이다!" Unit_ID="검은양"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="정체불명3" Narration="이것은 광인의 포효이며, 세상을 향한 외침이다!" Unit_ID="검은양"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="정체불명1" Narration="앞으로 나아가자!" Unit_ID="검은양"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="정체불명2" Narration="나아가자!" Unit_ID="검은양"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="정체불명3" Narration="우리의 목표는 서울이다!" Unit_ID="검은양"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="정체불명1" Narration="좋아, 일단 여기 있는 식량 확보하고, 주변 건물 확인 해." Unit_ID="검은양"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="정체불명2" Narration="예, 알겠습니다." Unit_ID="검은양"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="정체불명1" Narration="그리고, 사람 사는 흔적이 있는지도 확인해 보고." Unit_ID="검은양"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="정체불명3" Narration="예!" Unit_ID="검은양"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="&lt;event&gt;" Narration="검은양_3명_맵밖으로"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="J" Narration="방금 저거...사람 아니야?"/>
+	<Field MapIndex="3" TellingOrder="before" Teller="H" Narration="맞는 거 같아.."/>
+	<Field MapIndex="3" TellingOrder="before" Teller="철물점 아저씨" Narration="뭣들 해. 어서 짐 챙겨."/>
+	<Field MapIndex="3" TellingOrder="before" Teller="H" Narration="아, 네. "/>
+	<Field MapIndex="3" TellingOrder="before" Teller="H" Narration="(어떻게 지금까지 살아 남은거지...?)"/>
+	<Field MapIndex="3" TellingOrder="item" Narration="유통기한 지난 참치캔" CutImageName="컷씬_참치캔"/>
+</TutorialStoryBoard>

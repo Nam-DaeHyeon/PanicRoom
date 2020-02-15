@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MainStoryBoard>
+	<Field MapIndex="0" TellingOrder="before" Teller="H" Narration="준비 됐지? 혹시라도 마주치게 된다면"/>
+	<Field MapIndex="0" TellingOrder="before" Teller="J" Narration="일단 숨고, 안 되면 사격 준비 하라고. 도대체 몇 번을 말하는 거야?"/>
+	<Field MapIndex="0" TellingOrder="before" Teller="H" Narration="오늘은 우리 둘 밖에 안 나가니까."/>
+	<Field MapIndex="0" TellingOrder="before" Teller="J" Narration="그래도, 설마 죽기야 하겠어?"/>
+	<Field MapIndex="0" TellingOrder="before" Teller="H" Narration="(이 폐허 속에서 도대체 무슨 일이 벌어지고 있는걸까.)"/>
+	<Field MapIndex="0" TellingOrder="before" Quest="제2구역 초입(병원)을 탐색하라."/>
+	<Field MapIndex="1" TellingOrder="before" Teller="H" Narration="도대체 몇 발자국이나 왔다고."/>
+	<Field MapIndex="1" TellingOrder="after" Teller="J" Narration="뭔가 좀 이상하지 않아?"/>
+	<Field MapIndex="1" TellingOrder="after" Teller="H" Narration="뭐가?"/>
+	<Field MapIndex="1" TellingOrder="after" Teller="J" Narration="우리가 해치운 건 정말 괴물이 맞겠지?"/>
+	<Field MapIndex="1" TellingOrder="after" Teller="H" Narration="쓸 데 없는 소리 하지마."/>
+	<Field MapIndex="3" TellingOrder="object" Narration="(배터리를 넣으면 사용할 수 있을 것 같다.)" CutImageName="컷씬_무전기"/>
+	<Field MapIndex="3" TellingOrder="object" Teller="H" Narration="이거 무전기 같은데?"/>
+	<Field MapIndex="3" TellingOrder="object" Teller="J" Narration="켜져?"/>
+	<Field MapIndex="3" TellingOrder="object" Teller="H" Narration="아니, 배터리가 없어. 일단 가져가자."/>
+	<Field MapIndex="4" TellingOrder="before" Teller="H" Narration="(현재 상태을 확인 해보자)"/>
+	<Field MapIndex="4" TellingOrder="before" Narration="여정의 중간마다 플레이어는 현재의 상태를 확인해보고 방공호로 돌아갈지, 여정을 계속해서 진행할지를 결정할 수 있습니다. 방공호로 돌아 갈 경우 지금까지 얻은 아이템은 획득 할 수 있지만, 마지막 스테이지에 있는 스토리 힌트, 식량은 얻지 못합니다. "/>
+	<Field MapIndex="4" TellingOrder="before" Narration="또한 현재까지의 진행도는 저장되지 않습니다. 복귀는 분기점에서만 가능하며, 이후로 여정을 진행했을 때는 마지막 스테이지를 완료하여야만 여정에서 얻은 아이템을 획득 할 수 있습니다."/>
+	<Field MapIndex="4" TellingOrder="backhome" Teller="H" Narration="(무리하게 탐색하다가 죽을지도 모른다. 다음을 기약하자)"/>
+	<Field MapIndex="5" TellingOrder="before" Teller="정체불명1" Narration="여기에 깔려있는 시체들은." Unit_ID="검은양"/>
+	<Field MapIndex="5" TellingOrder="before" Teller="H" Narration="저기."/>
+	<Field MapIndex="5" TellingOrder="before" Teller="J" Narration="혁아, 그냥 돌아가야 되는 거 아냐?"/>
+	<Field MapIndex="5" TellingOrder="before" Teller="H" Narration="잠깐만, 저기요. 혹시 병원에 아직 약이 남아 있나요?"/>
+	<Field MapIndex="5" TellingOrder="before" Teller="정체불명1" Narration="여기에 깔려있는 시체들은." Unit_ID="검은양"/>
+	<Field MapIndex="5" TellingOrder="before" Teller="H" Narration="예?"/>
+	<Field MapIndex="5" TellingOrder="before" Teller="정체불명1" Narration="당신은 검은 양의 일원인가?" Unit_ID="검은양"/>
+	<Field MapIndex="5" TellingOrder="before" Teller="정체불명1" Narration="다시 한 번 묻겠다. 당신은 검은 양의 일원인가?" Unit_ID="검은양"/>
+	<Field MapIndex="5" TellingOrder="before" Teller="H" Narration="저희는 약만 가져가면 됩니다. 상비약 몇 개요, 우리가 싸울 이유는 없습니다."/>
+	<Field MapIndex="5" TellingOrder="before" Teller="정체불명1" Narration="일원이 아니라면 지나갈 수 없다." Unit_ID="검은양"/>
+	<Field MapIndex="5" TellingOrder="before" Teller="정체불명2" Narration="우리의 피와 눈물이며, 또한 위대한 희생이다!" Unit_ID="검은양"/>
+	<Field MapIndex="5" TellingOrder="before" Teller="정체불명3" Narration="이것은 광인의 포효이며, 세상을 향한 외침이다!" Unit_ID="검은양"/>
+	<Field MapIndex="5" TellingOrder="before" Teller="정체불명1" Narration="앞으로 나아가자!" Unit_ID="검은양"/>
+	<Field MapIndex="5" TellingOrder="after" Teller="H" Narration="다친 데 없지?"/>
+	<Field MapIndex="5" TellingOrder="after" Teller="J" Narration="어, 괜찮아. 가자."/>
+	<Field MapIndex="6" TellingOrder="object" Narration="누군가의 사원증." CutImageName="컷씬_사원증"/>
+	<Field MapIndex="6" TellingOrder="object" Narration="상태가 나쁘지 않은 배터리." CutImageName="컷씬_무전기용배터리"/>
+	<Field MapIndex="6" TellingOrder="object" Teller="H" Narration="(방공호에 돌아가서 무전기에 넣어보자.)"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="?" Narration="당신 누구야." Unit_ID="조력자_합류이전"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="H" Narration="저흰 위험한 사람들이 아닙니다. 약을 구하러 왔습니다."/>
+	<Field MapIndex="7" TellingOrder="before" Teller="?" Narration="약을 구하러 왔다고? 그리고 위험한지 아닌지 내가 어떻게 믿지?" Unit_ID="조력자_합류이전"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="H" Narration="그게 아니라면 저도 총부터 꺼냈겠죠."/>
+	<Field MapIndex="7" TellingOrder="before" Teller="J" Narration="와, 몇 달 만에 만날 사람들 오늘 다 만나는 거 같네.."/>
+	<Field MapIndex="7" TellingOrder="before" Teller="?" Narration="여기 오기 전에 또 누굴 만났나?" Unit_ID="조력자_합류이전"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="J" Narration="검은 양인지 염손지 뭔지.."/>
+	<Field MapIndex="7" TellingOrder="before" Teller="?" Narration="검은 양? 젠장! 바로 앞에 있었는지도 모르고." Unit_ID="조력자_합류이전"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="H" Narration="자, 진정하시죠. 그쪽은 어쩐 이유로 여기에 있습니까?"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="?" Narration="그건 알 필요 없어. 약을 구하러 왔다고?" Unit_ID="조력자_합류이전"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="H" Narration="예."/>
+	<Field MapIndex="7" TellingOrder="before" Teller="?" Narration="내 뒤에 있는 문을 열고 복도를 지나가면 약제실이 있어. 그리고 복도엔 괴물들이 있지" Unit_ID="조력자_합류이전"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="H" Narration="근데요?"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="?" Narration="근데 그 괴물은 비정상적으로 강해, 약이라도 한 것처럼." Unit_ID="조력자_합류이전"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="H" Narration="뭐 그럼..그쪽도 복도를 지나가야 하는데, 그 괴물 때문에 여기 있다?"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="?" Narration="그렇다고 할 수 있지." Unit_ID="조력자_합류이전"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="H" Narration="그럼 저 방까지만 손을 잡는 건 어떠십니까?"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="?" Narration="내가 당신들을 어떻게 믿고?" Unit_ID="조력자_합류이전"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="H" Narration="믿을지 말지는 관심없구요, 전 그쪽이 못 들어가게 말려도 약을 구할거거든요."/>
+	<Field MapIndex="7" TellingOrder="before" Teller="?" Narration="그러니 따라올지 말지는 내가 정하라?" Unit_ID="조력자_합류이전"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="H" Narration="뭐 그런 셈입니다. 지나가도 되겠죠?"/>
+	<Field MapIndex="7" TellingOrder="before" Teller="?" Narration="…" Unit_ID="조력자_합류이전"/>
+	<Field MapIndex="7" TellingOrder="next" Teller="?" Narration="같이 가지." Unit_ID="조력자_합류이전"/>
+	<Field MapIndex="8" TellingOrder="before" Teller="?" Narration="그리고 알아둘게 있는데." Unit_ID="조력자_합류"/>
+	<Field MapIndex="8" TellingOrder="before" Teller="H" Narration="음? 뭡니까."/>
+	<Field MapIndex="8" TellingOrder="before" Teller="?" Narration="총알이 하나밖에 없어." Unit_ID="조력자_합류"/>
+	<Field MapIndex="8" TellingOrder="before" Teller="J" Narration="예?!"/>
+	<Field MapIndex="8" TellingOrder="battle" Teller="?" Narration="비록 한 발 밖에 없긴 하지만, 치명상을 입히기엔 충분해." Unit_ID="조력자_합류"/>
+	<Field MapIndex="8" TellingOrder="battle" Teller="H" Narration="(너무 크다. 어떻게 공격해야 좋을까)"/>
+	<Field MapIndex="8" TellingOrder="battle" Teller="?" Narration="뭐해, 약 구하러 안 갈 거야?" Unit_ID="조력자_합류"/>
+	<Field MapIndex="8" TellingOrder="battle" Teller="H" Narration="하.."/>
+	<Field MapIndex="9" TellingOrder="before" Teller="?" Narration="어찌저찌 간신히 살았네." Unit_ID="조력자_이탈"/>
+	<Field MapIndex="9" TellingOrder="before" Teller="H" Narration="근데 당신은 왜 여기 있었나요."/>
+	<Field MapIndex="9" TellingOrder="before" Teller="?" Narration="그건 당신 알바 아니야." Unit_ID="조력자_이탈"/>
+	<Field MapIndex="9" TellingOrder="before" Teller="H" Narration="당신은 감염자가 아닌 거 같은데, 그동안 어떻게 살아오신거죠?"/>
+	<Field MapIndex="9" TellingOrder="before" Teller="?" Narration="살기로 마음먹으면 어떻게든 살아가는 거지. 숨을 곳도 많고." Unit_ID="조력자_이탈"/>
+	<Field MapIndex="9" TellingOrder="before" Teller="H" Narration="숨을 곳이요? 혹시 살아 있는 사람들이 더 있습니까?"/>
+	<Field MapIndex="9" TellingOrder="before" Teller="?" Narration="말이 많군, 볼일 다 봤으면 꺼져." Unit_ID="조력자_이탈"/>
+	<Field MapIndex="9" TellingOrder="before" Teller="&lt;event&gt;" Narration="조력자_?_맵밖으로"/>
+	<Field MapIndex="9" TellingOrder="before" Teller="J" Narration="거 팍팍한 양반이구만."/>
+	<Field MapIndex="9" TellingOrder="before" Teller="H" Narration="우리 말고도 살아 있는 사람들이 있을지도 몰라.. 어서 방공호로 돌아가자."/>
+	<Field MapIndex="9" TellingOrder="before" Narration="누군가가 숨겨놓은 5분 카레. 아직 유통기한이 지나지 않은 듯 하다." CutImageName="컷씬_카레"/>
+	<Field MapIndex="9" TellingOrder="before" Narration="유통기한이 지나 사용해도 되는지 모르겠다." CutImageName="컷씬_종합감기약"/>
+</MainStoryBoard>
